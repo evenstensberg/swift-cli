@@ -11,7 +11,7 @@ struct CLI: ParsableCommand {
     var verbose = false
 
     func run() throws {
-        // here you would compare the images, log stuff and return the right status code.
+        // logic etc
         throw ExitCode.success
     }
 }
